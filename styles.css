@@ -1,0 +1,54 @@
+body {
+
+font-family: monospace;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    background-color: blue;
+    padding: 40px;
+}
+
+.heading{
+    color: white;
+    font-size: 40px;
+    text-align: left;
+}
+
+.heading:hover{
+    text-align: center;
+    color: red;
+    font-family: monospace;
+}
+
+
+#content {
+    max-width: 600px;
+    padding-top: 20px;
+    margin: 0px 90px;
+}
+
+#videoIdInput {
+    width: 70%;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-style: none;
+}
+
+button:hover{
+    background-color: blue;
+    color: red;
+
+}
+
+#player {
+    margin-top: 20px;
+}
